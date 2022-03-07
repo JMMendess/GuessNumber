@@ -35,7 +35,7 @@ function handlesubmit(e){
     if(numberDrawn == kick) {
         console.log("entrou ==")
         playAgain();
-        status.innerHTML = 'Parabéns, você cagou!';
+        status.innerHTML = 'Parabéns, você acertou!';
         result.style.transition = '0.4s';
         result.style.backgroundColor = '#37c978';
         result.style.color = '#fff';
